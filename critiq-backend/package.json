@@ -1,0 +1,26 @@
+{
+  "name": "critiq-backend",
+  "version": "1.0.0",
+  "description": "CRITIQ - AI-Powered Movie Discovery Platform Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "movie",
+    "discovery",
+    "streaming",
+    "ai"
+  ],
+  "author": "CRITIQ",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^9.3.0",
+    "axios": "^1.13.6",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.18.2",
+    "openai": "^6.27.0"
+  }
+}
