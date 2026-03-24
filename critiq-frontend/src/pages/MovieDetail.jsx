@@ -99,7 +99,7 @@ function MovieDetail() {
                 alt={movie.title}
                 className="w-full"
                 onError={(e) => {
-                  e.target.src = `https://via.placeholder.com/400x600/1a1a2e/e50914?text=${encodeURIComponent(movie.title)}`
+                  e.target.src = `https://placehold.co/400x600/1a1a2e/e50914?text=${encodeURIComponent(movie.title)}`
                 }}
               />
               {/* Rating Badge */}

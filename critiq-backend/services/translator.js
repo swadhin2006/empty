@@ -60,7 +60,7 @@ async function fallbackTranslate(text, targetLanguage, sourceLanguage = 'English
   } catch (error) {
     console.error('Fallback translation error:', error.message);
     
-    // Last resort: Simple word-by-word mapping for demo
+    // Last resort: Simple word-by-word mapping for demo(This is a demo ,further versions coming soon)
     const simpleTranslations = {
       'Hello': 'नमस्ते',
       'World': 'दुनिया',
@@ -82,7 +82,7 @@ async function fallbackTranslate(text, targetLanguage, sourceLanguage = 'English
   }
 }
 
-// Translate text using OpenAI with fallback
+// Translate text using OpenAI with fallback(open ai using to translate the text)
 async function translateText(text, targetLanguage, sourceLanguage = 'English') {
   try {
     const completion = await openai.chat.completions.create({
@@ -122,11 +122,11 @@ async function translateText(text, targetLanguage, sourceLanguage = 'English') {
 // Generate AI dubbing script with cultural adaptation
 async function generateAIDubbing(movieTitle, movieSynopsis, targetLanguage, sourceLanguage = 'English') {
   try {
-    // Try OpenAI first
+    // OpenAI
     const titleTranslation = await translateText(movieTitle, targetLanguage, sourceLanguage);
     const synopsisTranslation = await translateText(movieSynopsis, targetLanguage, sourceLanguage);
 
-    // Try to generate dubbing notes with OpenAI
+    // Try to generate dubbing notes with OpenAI(dubbing notes for a movie ex: Inception)
     let dubbingNotes = `Professional dubbing recommended for ${targetLanguage} audience. Maintain emotional tone and cultural context.`;
     
     try {

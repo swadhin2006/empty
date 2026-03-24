@@ -87,10 +87,10 @@ function Discover() {
               <Link
                 key={key}
                 to={`/discover/${key}`}
-                className={`py-4 px-2 font-medium whitespace-nowrap transition-colors ${
+                className={`py-4 px-2 font-medium whitespace-nowrap transition-colors border-b-2 ${
                   section === key
-                    ? `text-white border-b-2 border-gradient-to-r ${value.gradient.split(' ')[1]} border-red-500`
-                    : 'text-gray-400 hover:text-white'
+                    ? 'text-white border-red-500'
+                    : 'text-gray-400 hover:text-white border-transparent'
                 }`}
               >
                 {value.title}

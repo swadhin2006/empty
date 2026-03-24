@@ -61,7 +61,7 @@ const movies = [
     genres: ["Comedy", "Drama"],
     themes: ["Education", "Friendship", "Dreams", "Pressure"],
     synopsis: "Two friends are searching for a long lost buddy. This journey takes them around India, where they learn that the key to life is not a diploma but a simple three-letter word - ICE.",
-    poster: "https://image.tmdb.org/t/p/w500/2M0R9nGe8R9iV0I178lvq53qDd7.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "Netflix", quality: "4K", audioLanguages: ["Hindi", "Tamil", "Telugu"], aiSubtitles: ["English", "Tamil", "Telugu"], aiDubbing: ["Tamil", "Telugu"] },
@@ -78,7 +78,7 @@ const movies = [
     genres: ["Drama", "Sport", "History"],
     themes: ["Colonialism", "Unity", "Cricket", "Resistance"],
     synopsis: "The villagers of a territory in British-controlled India decide to play a cricket match against their colonizers to win their freedom.",
-    poster: "https://image.tmdb.org/t/p/w500/w3viRkbseTq7vV5LvQnNbbh7I5X.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -125,11 +125,11 @@ const movies = [
     title: "Pather Panchali",
     year: 1955,
     director: "Satyajit Ray",
-    actors: ["Kanu Banerjee", "Uma Das", "Subir Banerjee", "Chunibala Devi"],
+    actors: ["Kanu Banerjee", "Uma Das Gupta", "Subir Banerjee", "Chunibala Devi"],
     genres: ["Drama"],
     themes: ["Childhood", "Poverty", "Rural Life", "Art"],
     synopsis: "Impressed with the young girl Durga's independent spirit, her older cousin feels neglected and plans to leave.",
-    poster: "https://image.tmdb.org/t/p/w500/1xMjCTVPkJPqZKXHqPqJQvhJJJJ.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/gSuHDeWemA1menrwfMRChnSmMVN.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "MUBI", quality: "Full HD", audioLanguages: ["Bengali"], aiSubtitles: ["English", "Hindi"], aiDubbing: [] }
@@ -162,7 +162,7 @@ const movies = [
     genres: ["Action", "Adventure", "Comedy"],
     themes: ["Revenge", "Friendship", "Courage", "Justice"],
     synopsis: "After his family is killed, a former hired gun is asked to help a police officer capture a dangerous criminal.",
-    poster: "https://image.tmdb.org/t/p/w500/3PqVgDoNPPYXXZXJLPBqJZZZZZZ.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/ya9bwgqA4eNl5bQ9QqS0jcmRoBS.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "SonyLIV", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -192,11 +192,11 @@ const movies = [
     title: "Chhichhore",
     year: 2019,
     director: "Nitesh Tiwari",
-    actors: ["Sushant Singh Rajput", "Shraddha Kapoor", "Varun Dhawan", "Prateik Babbar"],
+    actors: ["Sushant Singh Rajput", "Shraddha Kapoor", "Varun Sharma", "Prateik Babbar"],
     genres: ["Comedy", "Drama"],
     themes: ["Engineering College", "Friendship", "Failure", "Success"],
     synopsis: "A group of alumni travel back to their college to relive the fun and lessons they learned there.",
-    poster: "https://image.tmdb.org/t/p/w500/9pqZ0b3hXqXqXqXqXqXqXqXqXqX.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/cGDPQtQ5igtPMt3oJ6BCAor6dFp.jpg",
     experienceRating: "Go For It",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -208,12 +208,12 @@ const movies = [
     id: 13,
     title: "Andhadhun",
     year: 2018,
-    director: "Sriram Nene",
+    director: "Sriram Raghavan",
     actors: ["Ayushmann Khurrana", "Tabu", "Radhika Apte", "Anil Dhawan"],
     genres: ["Thriller", "Mystery", "Crime"],
     themes: ["Blindness", "Murder", "Deception", "Chaos"],
     synopsis: "A piano player who becomes an accidental witness to a murder gets entangled in the investigation.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXX.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -230,7 +230,7 @@ const movies = [
     genres: ["Drama", "Biography", "Sport"],
     themes: ["Gender Equality", "Family", "Perseverance", "Dreams"],
     synopsis: "Former wrestler Mahavir Singh Phogat trains his daughters Geeta and Babita to become world-class wrestlers.",
-    poster: "https://image.tmdb.org/t/p/w500/9pqZ0b3hXqXqXqXqXqXqXqXqXqY.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/1CoKNi3XVyijPCvy0usDbSWEXAg.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "Netflix", quality: "4K", audioLanguages: ["Hindi", "Tamil", "Telugu"], aiSubtitles: ["English", "Tamil", "Telugu"], aiDubbing: ["Tamil", "Telugu"] },
@@ -243,11 +243,11 @@ const movies = [
     title: "Mersal",
     year: 2017,
     director: "Atlee",
-    actors: ["Joseph Vijay", "Samantha Ruth Prabhu", "Kajal Aggarwal", "Nithya Menen"],
+    actors: ["Vijay", "Samantha Ruth Prabhu", "Kajal Aggarwal", "Nithya Menen"],
     genres: ["Action", "Drama", "Thriller"],
     themes: ["Doctors", "Revenge", "Mystery", "Family"],
     synopsis: "A doctor uses his skills to expose a medical scam while unraveling a mysterious case involving twins.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXY.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg",
     experienceRating: "Timepass",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Tamil", "Telugu", "Hindi"], aiSubtitles: ["English", "Hindi", "Telugu"], aiDubbing: ["Hindi"] },
@@ -260,11 +260,11 @@ const movies = [
     title: "Gangs of Wasseypur",
     year: 2012,
     director: "Anurag Kashyap",
-    actors: ["Manoj Bajpayee", "Richa Chadda", "Nawab Shah", "Piyush Mishra"],
+    actors: ["Manoj Bajpayee", "Richa Chadda", "Nawazuddin Siddiqui", "Piyush Mishra"],
     genres: ["Crime", "Drama", "Action"],
     themes: ["Family Feud", "Politics", "Revenge", "Coal Mining"],
     synopsis: "A glimpse into the underworld of India's Dhanbad, where coal magnates rule with an iron fist.",
-    poster: "https://image.tmdb.org/t/p/w500/5pqZ0b3hXqXqXqXqXqXqXqXqXqX.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/xAy208Znkingmfnb5ZbULwLyIwW.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -277,11 +277,11 @@ const movies = [
     title: "PK",
     year: 2014,
     director: "Rajkumar Hirani",
-    actors: ["Aamirushka Sharma", "Sanjay Dutt", "Boman Khan", "An Irani"],
+    actors: ["Aamir Khan", "Anushka Sharma", "Sanjay Dutt", "Boman Irani"],
     genres: ["Comedy", "Drama", "Sci-Fi"],
     themes: ["Religion", "Alien", "Faith", "Society"],
     synopsis: "An alien lands on Earth and questions the religious practices of humans.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXZ.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg",
     experienceRating: "Go For It",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -315,7 +315,7 @@ const movies = [
     genres: ["Action", "Thriller"],
     themes: ["Social Justice", "Revenge", "Politics", "Mission"],
     synopsis: "A man embarks on a mission to correct the system and bring justice to the people.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXA.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
     experienceRating: "Timepass",
     streaming: [
       { platform: "Netflix", quality: "4K", audioLanguages: ["Hindi", "Tamil", "Telugu"], aiSubtitles: ["English", "Tamil", "Telugu"], aiDubbing: ["Tamil", "Telugu"] },
@@ -326,17 +326,17 @@ const movies = [
   {
     id: 20,
     title: "UI",
-    year: 2023,
-    director: "Kartik Subbaraj",
-    actors: ["Vijay Sethupathi", "Nayanthara", "Fahadh Faasil", "Sarath Kumar"],
+    year: 2024,
+    director: "Upendra",
+    actors: ["Upendra", "Redhika Apte", "Murali Sharma", "Srinidhi Shetty"],
     genres: ["Sci-Fi", "Drama", "Thriller"],
     themes: ["AI", "Humanity", "Emotions", "Technology"],
-    synopsis: "An AI robot experiences human emotions and faces ethical dilemmas about its existence.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXB.jpg",
+    synopsis: "A political thriller that explores the dark side of power and manipulation in modern society.",
+    poster: "https://image.tmdb.org/t/p/w500/tWoeysV4ro6wn4TE0QgqMuo6Val.jpg",
     experienceRating: "Go For It",
     streaming: [
-      { platform: "Netflix", quality: "Full HD", audioLanguages: ["Tamil", "Telugu", "Hindi"], aiSubtitles: ["English", "Hindi", "Telugu"], aiDubbing: ["Hindi", "Telugu"] },
-      { platform: "Amazon Prime", quality: "Full HD", audioLanguages: ["Tamil"], aiSubtitles: ["English"], aiDubbing: [] }
+      { platform: "Netflix", quality: "Full HD", audioLanguages: ["Kannada", "Telugu", "Hindi"], aiSubtitles: ["English", "Hindi", "Telugu"], aiDubbing: ["Hindi", "Telugu"] },
+      { platform: "Amazon Prime", quality: "Full HD", audioLanguages: ["Kannada"], aiSubtitles: ["English"], aiDubbing: [] }
     ],
     category: "underrated"
   },
@@ -347,9 +347,9 @@ const movies = [
     director: "Sandeep Reddy Vanga",
     actors: ["Shahid Kapoor", "Kiara Advani", "Arunoday Singh", "Sana Saeed"],
     genres: ["Romance", "Drama"],
-    themes: ["Love", "Obsession", "Revenge", "Redemption"],
+    themes: ["Love", "Obsession", "Anger", "Redemption"],
     synopsis: "A surgeon goes into a self-destructive spiral after his girlfriend leaves him.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXC.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/unqiPjtc6CGqs13zho7ZvWU85zu.jpg",
     experienceRating: "Average",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -359,14 +359,14 @@ const movies = [
   },
   {
     id: 22,
-    title: "Brahmāstra: Part One",
+    title: "Brahmastra: Part One",
     year: 2022,
     director: "Ayan Mukerji",
     actors: ["Ranbir Kapoor", "Alia Bhatt", "Mouni Roy", "Amitabh Bachchan"],
     genres: ["Fantasy", "Action", "Adventure"],
     themes: ["Mythology", "Love", "Magic", "Heroes"],
     synopsis: "A DJ and a conservationist discover a magical weapon that leads them to a secret society.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXD.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/mxJxyHoc8OqYK1f7YtbhRTLOl0k.jpg",
     experienceRating: "Timepass",
     streaming: [
       { platform: "Netflix", quality: "4K", audioLanguages: ["Hindi", "Tamil", "Telugu"], aiSubtitles: ["English", "Tamil", "Telugu"], aiDubbing: ["Tamil", "Telugu"] },
@@ -383,7 +383,7 @@ const movies = [
     genres: ["Comedy", "Horror"],
     themes: ["Ghost", "Comedy", "Town Legend", "Love"],
     synopsis: "A stylized reality of an Indian town where a female ghost visits only during a festival.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXE.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/2xLDWr72Wxc1JGmbxza2V8g26YH.jpg",
     experienceRating: "Go For It",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -396,11 +396,11 @@ const movies = [
     title: "Barfi!",
     year: 2012,
     director: "Anurag Basu",
-    actors: ["Ranbir Kapoor", "Priyanka Chopra", "Ileana D'Cruz", "Rohit Saraf"],
+    actors: ["Ranbir Kapoor", "Priyanka Chopra", "Ileana D'Cruz", "Saurabh Shukla"],
     genres: ["Comedy", "Drama", "Romance"],
     themes: ["Love", "Disability", "Heartbreak", "Happiness"],
     synopsis: "A deaf-mute boy falls in love with an autistic girl while another woman falls for him.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXF.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/5cJIx2zKjDoUtPSliou23xsReb1.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -413,11 +413,11 @@ const movies = [
     title: "Tiger Zinda Hai",
     year: 2017,
     director: "Ali Abbas Zafar",
-    actors: ["Salman Khan", "Katrina Kaif", "Sanjay Dutt", "Parmeet Sethi"],
+    actors: ["Salman Khan", "Katrina Kaif", "Paresh Rawal", "Angad Bedi"],
     genres: ["Action", "Thriller"],
     themes: ["Terrorism", "Rescue", "Mission", "Heroism"],
     synopsis: "A special ops agent leads a dangerous mission to rescue hostages held by a terrorist group.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXG.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/mdzNLFfCfuBoJz43l0SmMWWdu5t.jpg",
     experienceRating: "Timepass",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -434,7 +434,7 @@ const movies = [
     genres: ["Crime", "Drama", "Thriller"],
     themes: ["Macbeth", "Power", "Ambition", "Betrayal"],
     synopsis: "A crime drama inspired by Shakespeare's Macbeth, set in Mumbai's underworld.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXH.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/8ULTBxnbt0NrWlDm5fahbQooj91.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "MUBI", quality: "Full HD", audioLanguages: ["Hindi", "Urdu"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -444,14 +444,14 @@ const movies = [
   },
   {
     id: 27,
-    title: "Pushpa",
+    title: "Pushpa: The Rise",
     year: 2021,
     director: "Sukumar",
     actors: ["Allu Arjun", "Rashmika Mandanna", "Fahadh Faasil", "Sunil"],
     genres: ["Action", "Drama", "Crime"],
     themes: ["Smuggling", "Power", "Rise", "Revenge"],
     synopsis: "A laborer becomes a powerful figure in the red sanders smuggling business.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXI.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/h6Pd89ngvl9quPVsx3KoJlQsvk9.jpg",
     experienceRating: "Timepass",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Telugu", "Hindi", "Tamil", "Malayalam"], aiSubtitles: ["English", "Hindi", "Tamil", "Malayalam"], aiDubbing: ["Hindi", "Tamil", "Malayalam"] },
@@ -464,11 +464,11 @@ const movies = [
     title: "Queen",
     year: 2014,
     director: "Vikas Bahl",
-    actors: ["Kangana Ranaut", "Rajkummar Rao", "Lisa Haydon", "Farhan Akhtar"],
+    actors: ["Kangana Ranaut", "Rajkummar Rao", "Lisa Haydon", "Mish Boyko"],
     genres: ["Comedy", "Drama"],
     themes: ["Self-Discovery", "Independence", "Travel", "Empowerment"],
-    synopsis: "A girl goes on a solo honeymoon after her fiancé calls off their wedding.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXJ.jpg",
+    synopsis: "A girl goes on a solo honeymoon after her fiance calls off their wedding.",
+    poster: "https://image.tmdb.org/t/p/w500/vKLp0X2RQOuA31R3AdaYtDdKIPK.jpg",
     experienceRating: "Masterpiece",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -480,12 +480,12 @@ const movies = [
     id: 29,
     title: "Housefull 4",
     year: 2019,
-    director: "Aparas Kundra",
+    director: "Farhad Samji",
     actors: ["Akshay Kumar", "Riteish Deshmukh", "Bobby Deol", "Kriti Sanon"],
-    genres: ["Comedy", "Drama"],
+    genres: ["Comedy"],
     themes: ["Reincarnation", "Comedy", "Family", "Love"],
-    synopsis: "A modern reincarnation story about lovers from 1910 and 2019.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXK.jpg",
+    synopsis: "A modern reincarnation story about lovers from 1419 and 2019.",
+    poster: "https://image.tmdb.org/t/p/w500/aCJOZzWV6cpZ9p9tmfEzXq4EqN8.jpg",
     experienceRating: "Average",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -497,12 +497,12 @@ const movies = [
     id: 30,
     title: "Tumbbad",
     year: 2018,
-    director: "Rahi Sahu",
-    actors: ["Sohum Shah", "Joginder Sood", "Mohammed Samad", "Ronica Saluja"],
+    director: "Rahi Anil Barve",
+    actors: ["Sohum Shah", "Jyoti Malshe", "Mohammed Samad", "Ronjini Chakraborty"],
     genres: ["Horror", "Fantasy", "Drama"],
     themes: ["Mythology", "Greed", "Ancient Curse", "Gold"],
     synopsis: "A historical fantasy horror about a hidden treasure and the curse that surrounds it.",
-    poster: "https://image.tmdb.org/t/p/w500/yyOPwvXfFXXfFXXfFXXfFXXfFXL.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/z1xOCxw780WFJC5uCTMfCkQ4Agi.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] },
@@ -515,7 +515,7 @@ const movies = [
     title: "The Lion King",
     year: 2019,
     director: "Jon Favreau",
-    actors: ["Donald Glover", "Beyoncé", "James Earl Jones", "Chiwetel Ejiofor"],
+    actors: ["Donald Glover", "Beyonce", "James Earl Jones", "Chiwetel Ejiofor"],
     genres: ["Animation", "Adventure", "Family"],
     themes: ["Family", "Responsibility", "Circle of Life", "Courage"],
     synopsis: "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
@@ -547,7 +547,7 @@ const movies = [
     title: "Coco",
     year: 2017,
     director: "Lee Unkrich",
-    actors: ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt", "Alanna Ubach"],
+    actors: ["Anthony Gonzalez", "Gael Garcia Bernal", "Benjamin Bratt", "Alanna Ubach"],
     genres: ["Animation", "Family", "Fantasy"],
     themes: ["Family", "Memory", "Music", "Culture"],
     synopsis: "A young boy accidentally enters the Land of the Dead and seeks the help of his deceased musician great-great-grandfather to return to his family.",
@@ -594,7 +594,7 @@ const movies = [
     id: 36,
     title: "The Revenant",
     year: 2015,
-    director: "Alejandro González Iñárritu",
+    director: "Alejandro Gonzalez Inarritu",
     actors: ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson", "Will Poulter"],
     genres: ["Adventure", "Drama", "Western"],
     themes: ["Survival", "Revenge", "Nature", "Endurance"],
@@ -663,7 +663,7 @@ const movies = [
     genres: ["Thriller", "Crime", "Drama"],
     themes: ["Family", "Protection", "Deception", "Justice"],
     synopsis: "A man goes to extreme lengths to save his family from the consequences of a crime.",
-    poster: "https://image.tmdb.org/t/p/w500/2M0R9nGe8R9iV0I178lvq53qDd8.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/gIClWRv5OSe8rl5Koi0AeUcCZ9Z.jpg",
     experienceRating: "Absolute Cinema",
     streaming: [
       { platform: "Netflix", quality: "Full HD", audioLanguages: ["Hindi"], aiSubtitles: ["English"], aiDubbing: [] }
@@ -684,28 +684,28 @@ const experienceRatings = {
 
 // Streaming platforms
 const streamingPlatforms = [
-  { id: 1, name: "Netflix", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg", color: "bg-red-600" },
-  { id: 2, name: "Amazon Prime", logo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.jpg", color: "bg-blue-600" },
-  { id: 3, name: "Hotstar", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Hotstar_logo.svg", color: "bg-purple-600" },
-  { id: 4, name: "Disney+", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg", color: "bg-blue-500" },
-  { id: 5, name: "HBO Max", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/HBO_Max_Logo.svg", color: "bg-purple-700" },
-  { id: 6, name: "SonyLIV", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/SonyLIV_Logo.svg", color: "bg-red-500" },
-  { id: 7, name: "ZEE5", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/ZEE5_Logo.svg", color: "bg-red-700" },
-  { id: 8, name: "MUBI", logo: "https://upload.wikimedia.org/wikipedia/commons/2/24/MUBI_Logo.svg", color: "bg-black" },
-  { id: 9, name: "Voot", logo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Voot_Logo.svg", color: "bg-purple-500" },
-  { id: 10, name: "Apple TV+", logo: "https://upload.wikimedia.org/wikipedia/commons/2/25/Apple_TV%2B_Logo.svg", color: "bg-gray-800" }
+  { id: 1, name: "Netflix", color: "bg-red-600" },
+  { id: 2, name: "Amazon Prime", color: "bg-blue-600" },
+  { id: 3, name: "Hotstar", color: "bg-purple-600" },
+  { id: 4, name: "Disney+", color: "bg-blue-500" },
+  { id: 5, name: "HBO Max", color: "bg-purple-700" },
+  { id: 6, name: "SonyLIV", color: "bg-red-500" },
+  { id: 7, name: "ZEE5", color: "bg-red-700" },
+  { id: 8, name: "MUBI", color: "bg-black" },
+  { id: 9, name: "Voot", color: "bg-purple-500" },
+  { id: 10, name: "Apple TV+", color: "bg-gray-800" }
 ];
 
 // Genres list
 const genres = [
-  "Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", 
-  "Drama", "Family", "Fantasy", "Horror", "Music", "Mystery", 
+  "Action", "Adventure", "Animation", "Biography", "Comedy", "Crime",
+  "Drama", "Family", "Fantasy", "Horror", "Music", "Mystery",
   "Romance", "Sci-Fi", "Sport", "Thriller", "War", "Western"
 ];
 
 // Languages
 const languages = [
-  "English", "Hindi", "Tamil", "Telugu", "Kannada", "Malayalam", 
+  "English", "Hindi", "Tamil", "Telugu", "Kannada", "Malayalam",
   "Bengali", "Marathi", "Gujarati", "Punjabi", "Urdu", "Spanish", "French"
 ];
 

@@ -22,17 +22,21 @@ function MovieCard({ movie }) {
   const ratingClass = ratingStyles[movie.experienceRating] || "from-gray-500 to-gray-700"
   const ratingEmoji = ratingEmojis[movie.experienceRating] || "⭐"
 
+  const fallbackPoster = `https://placehold.co/300x450/1a1a2e/e50914?text=${encodeURIComponent(movie.title)}`
+
   return (
     <Link to={`/movie/${movie.id}`} className="movie-card block group">
       <div className="relative bg-critiq-card rounded-xl overflow-hidden shadow-lg">
         {/* Poster Image */}
         <div className="relative aspect-[2/3] overflow-hidden">
           <img
-            src={movie.poster}
+            src={movie.poster || fallbackPoster}
             alt={movie.title}
             className="movie-poster w-full h-full object-cover transition-transform duration-300"
             onError={(e) => {
-              e.target.src = `https://via.placeholder.com/300x450/1a1a2e/e50914?text=${encodeURIComponent(movie.title)}`
+              if (e.target.src !== fallbackPoster) {
+                e.target.src = fallbackPoster
+              }
             }}
           />
           
