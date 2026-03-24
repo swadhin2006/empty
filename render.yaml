@@ -2,8 +2,9 @@ services:
   - type: web
     name: critiq-backend
     runtime: node
-    buildCommand: cd critiq-backend && npm install
-    startCommand: cd critiq-backend && node server.js
+    rootDir: critiq-backend
+    buildCommand: npm install
+    startCommand: node server.js
     envVars:
       - key: PORT
         value: 10000
@@ -13,15 +14,3 @@ services:
         sync: false
       - key: OPENAI_API_KEY
         sync: false
-
-  - type: static
-    name: critiq-frontend
-    buildCommand: cd critiq-frontend && npm install && npm run build
-    staticPublishPath: critiq-frontend/dist
-    envVars:
-      - key: VITE_API_URL
-        sync: false
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
