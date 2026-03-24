@@ -1,6 +1,5 @@
-// Central API base URL — uses env var in production, falls back to localhost in dev
-const API_BASE = import.meta.env.VITE_API_URL
-  ? `https://${import.meta.env.VITE_API_URL}`
-  : 'http://localhost:5000';
+// In production on Vercel, API is on the same domain at /api
+// In local dev, proxy via vite to localhost:5000
+const API_BASE = import.meta.env.DEV ? 'http://localhost:5000' : '';
 
 export default API_BASE;
